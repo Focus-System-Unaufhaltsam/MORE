@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="MORE placeholder mark">
+  <rect width="512" height="512" rx="78" fill="#070707"/>
+  <path d="M52 72h408v368H52z" fill="#F7F1E6" opacity="0.06"/>
+  <path d="M70 70h372v372H70z" fill="none" stroke="#F05A28" stroke-width="18"/>
+  <path d="M407 50h56v171h-56z" fill="#F05A28"/>
+  <text x="256" y="292" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="-2" fill="#F7F1E6">MORE</text>
+  <text x="256" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="8" fill="#F05A28">FOCUS</text>
+</svg>

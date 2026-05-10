@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 240" role="img" aria-label="MORE placeholder wordmark">
+  <rect width="920" height="240" rx="28" fill="#070707"/>
+  <path d="M40 42h840v156H40z" fill="none" stroke="#F05A28" stroke-width="10"/>
+  <text x="460" y="144" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="5" fill="#F7F1E6">MORE</text>
+  <path d="M800 0h54v118h-54z" fill="#F05A28"/>
+</svg>
