@@ -5,7 +5,7 @@
 // ==========================================
 window.UNAUFHALTSAM_CONFIG = {
   id: "leaderboard_more-v1",
-  clientVersion: "more-unaufhaltsam-v1-safe-skin",
+  clientVersion: "more-unaufhaltsam-v1-firebase-connected",
 
   pageTitle: "MORE | UNAUFHALTSAM FOCUS SYSTEM",
   brandTitle: "MORE UNAUFHALTSAM",

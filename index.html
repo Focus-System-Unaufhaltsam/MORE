@@ -8,7 +8,7 @@
   <meta property="og:title" content="MORE UNAUFHALTSAM" />
   <meta property="og:description" content="99% fail at Level 30. One mistake ends the system." />
   <meta property="og:type" content="website" />
-  <meta name="theme-color" content="#7C3AED" />
+  <meta name="theme-color" content="#F05A28" />
 
   <script src="config.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
@@ -170,7 +170,7 @@
     // ======================================================
     const DEFAULT_CONFIG = {
       id: "leaderboard_more-v1",
-      clientVersion: "more-unaufhaltsam-v1-safe-skin",
+      clientVersion: "more-unaufhaltsam-v1-firebase-connected",
       pageTitle: "MORE | UNAUFHALTSAM FOCUS SYSTEM",
       brandTitle: "MORE UNAUFHALTSAM",
       brandSub: "99% FAIL AT LEVEL 30",
@@ -178,7 +178,7 @@
       startButton: "START SYSTEM",
       boxOverlayText: "FOCUS",
       mythText: "LEVEL 30 WALL: NOT FOR TOURISTS",
-      brandColor: "#7C3AED",
+      brandColor: "#F05A28",
       logoFileName: "more_mark",
       logoFallbacks: ["more_mark.svg", "more_wordmark.svg"],
       minScoreToSave: 4,
@@ -218,16 +218,18 @@
     // ======================================================
     // 2. FIREBASE ENGINE
     // ======================================================
+    // Firebase project: mg-challenge
+    // Static GitHub Pages build uses Firebase compat SDKs; no bundler is required.
     const firebaseConfig = {
       apiKey: "AIzaSyC0olKESyTP0rXUlnjGstLlGN50I1m_O2A",
       authDomain: "mg-challenge.firebaseapp.com",
       projectId: "mg-challenge",
       storageBucket: "mg-challenge.firebasestorage.app",
       messagingSenderId: "472289048663",
-      appId: "1:472289048663:web:cc68ded6007e1e822c4b12"
+      appId: "1:472289048663:web:c91710542408c80d2c4b12"
     };
 
-    firebase.initializeApp(firebaseConfig);
+    if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
     const db = firebase.firestore();
     const auth = firebase.auth();
     const dbRef = db.collection(CLIENT_CONFIG.id);

@@ -47,3 +47,19 @@ https://focus-system-unaufhaltsam.github.io/eddie/
 ```
 
 After deployment hard-refresh with `Ctrl + F5` or test in an incognito window.
+
+
+## Firebase connection
+
+This build is connected to the Firebase project `mg-challenge` with app ID:
+
+`1:472289048663:web:c91710542408c80d2c4b12`
+
+It uses the Firebase compat SDKs in `index.html` so it works directly on GitHub Pages without a build step.
+
+Required Firebase settings:
+
+1. Firestore Database must be enabled.
+2. Authentication → Sign-in method → Anonymous must be enabled.
+3. Publish the included `firestore.rules` file in Firebase Console.
+4. The leaderboard collection is `leaderboard_more-v1` and will be created automatically on first valid score save.
